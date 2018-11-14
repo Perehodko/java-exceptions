@@ -5,7 +5,7 @@ import java.nio.file.*;
 
 public class Exception {
     public static void main(String[] args) throws IOException {
-        String path = "C:\\Users\\Надя\\Desktop\\new_directory";
+        String path = "C:\\Users\\Nadya\\Desktop\\new_directory";
         File directory = new File(path);
         if (!directory.exists()) {
             try {
